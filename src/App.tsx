@@ -6,7 +6,7 @@ import Header from "./Header";
 function App() {
   return (
     <div className="bg-zinc-900 text-white min-h-dvh flex flex-col">
-      <BrowserRouter>
+      <BrowserRouter basename="/SAP1">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
