@@ -1,5 +1,5 @@
 const opcodePattern =
-  /\b(LDA|LDB|STA|JMP|JZ|JNZ|SHL|SHR|RCL|RCR|ADD|SUB|INC|DEC|REV|HLT|NOP|CMP|BW_OR|BW_AND|BW_NOT|BW_XOR)\s*(\w+)?\b/;
+  /\b(LDA|LDB|STA|JMP|JZ|JNZ|SHL|SHR|ROL|ROR|ADD|SUB|INC|DEC|REV|HLT|NOP|CMP|BW_OR|BW_AND|BW_NOT|BW_XOR)\s*(\w+)?\b/;
 
 // possible pattern: mem[12] = 5 or mem[0x0C] = 0b01 or mem[0b01] = 0x0C
 const memPattern =

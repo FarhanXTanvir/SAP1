@@ -24,23 +24,27 @@ A modern, web-based assembly language editor and assembler built with React, Typ
 
    ```bash
    git clone https://github.com/FarhanXTanvir/SAP1
-   cd assembler
+   cd sap1
    ```
 
 2. **Install dependencies**
 
+   If you don't have `pnpm` installed in your device then install it:
+
+   ```bash
+     npm install -g pnpm
+   ```
+
+   Finally:
+
    ```bash
    pnpm install
-   # or
-   npm install
    ```
 
 3. **Start the development server**
 
    ```bash
    pnpm dev
-   # or
-   npm run dev
    ```
 
 4. **Open your browser**
@@ -50,8 +54,6 @@ A modern, web-based assembly language editor and assembler built with React, Typ
 
 ```bash
 pnpm build
-# or
-npm run build
 ```
 
 ## 📖 Usage
@@ -196,8 +198,6 @@ The project uses ESLint with TypeScript and React-specific rules. Run the linter
 
 ```bash
 pnpm lint
-# or
-npm run lint
 ```
 
 ### Building and Testing

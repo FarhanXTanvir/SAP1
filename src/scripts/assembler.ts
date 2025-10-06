@@ -185,7 +185,7 @@ export default function assemble(program: string) {
             ? operand.slice(2) // Remove 0b prefix
             : decimalToBinary(parseInt(operand))
         ).padStart(4, "0"); // Ensures 4-bit representation
-        if (/^(SHL|SHR|RCL|RCR)$/.test(opcode)) {
+        if (/^(SHL|SHR|ROL|ROR)$/.test(opcode)) {
           if (parseInt(operandBinary, 2) > 7) {
             error = `Shift amount out of range (0-7): ${operand} at line ${
               index + 1
