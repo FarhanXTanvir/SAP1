@@ -1,0 +1,8 @@
+mem[12] = 10
+mem[13] = 5
+LDA 12
+LDB 13
+SHL 3
+SHR 2
+STA 14
+HLT
